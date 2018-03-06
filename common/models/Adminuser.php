@@ -27,7 +27,7 @@ class Adminuser extends \yii\db\ActiveRecord implements IdentityInterface
      */
     public static function tableName()
     {
-        return 'adminuser';
+        return '{{Adminuser}}';
     }
 
     /**
